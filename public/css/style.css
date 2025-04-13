@@ -1,0 +1,26 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  margin-top: 30px;
+}
+
+h1 {
+  color: #343a40;
+  font-weight: bold;
+}
+
+.btn-success,
+.btn-primary {
+  transition: background-color 0.3s;
+}
+
+.btn-success:hover,
+.btn-primary:hover {
+  filter: brightness(90%);
+}
